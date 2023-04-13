@@ -1,0 +1,294 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fw-400{
+	font-weight: 400;
+}
+.fw-700{
+	font-weight: 700;
+}
+.fw-800{
+	font-weight: 800;
+}
+.fw-600{
+	font-weight: 600;
+}
+
+.fs-12{
+	font-size: 12px;
+}
+
+.fs-14{
+	font-size: 14px;
+}
+
+.fs-16{
+	font-size: 16px;
+}
+
+.fs-18{
+	font-size: 18px;
+}
+
+.fs-24{
+	font-size: 24px;
+}
+
+.fs-32{
+	font-size: 32px;
+}
+
+.fs-40{
+	font-size: 40px;
+}
+
+.btnstat{
+	padding: 16px 32px;
+	border-radius: 10px;
+}
+
+
+div.white_bubbles{
+	background-image: url("../images/bubblewhite.png");
+		background-size: cover;
+
+}
+div.white_bubbles img.header_logo{
+	height: 30px;
+}
+
+div.blue_bubbles{
+	background-image: url("../images/bubbleblue.png");
+	background-size: cover;
+	height: 1024px;
+	z-index: -1;
+}
+
+div.topcircle{
+	background-image: url("../images/Herocircle.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	height: 620px;
+	margin-top: -850px;
+	margin-bottom: 300px;
+
+}
+
+
+div.topcircle p.question{
+	font-size: 32px;
+	padding:0 25%;
+	font-weight: 700;
+}
+
+
+
+
+
+
+/*top section ends here*/
+
+
+.class_card{
+	overflow: hidden;
+
+}
+
+.class_card:hover img{
+	transform: scale(1.5);
+	transition: 1s ease;
+}
+
+.embolden{
+	font-weight: 700;
+}
+/*events section ends here*/
+
+section.community img{
+	margin-top: 5px;
+}
+
+section.community .text{
+	margin-top: 12%;
+}
+
+section.scholarships{
+	background-color: rgba(216, 216, 216, 1);
+}
+
+section.Newsletter{
+	background: url("../images/bulb.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 874px;
+
+}
+
+
+section.Newsletter div.formcircle{
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(180deg, #7D42FF 0%, #08FCFF 100%);
+	border-radius: 720px;
+	width: 720px;
+	height: 720px;
+	box-shadow: 0px 35px 26px -25px rgba(107, 90, 0, 0.28);
+	outline: 4px solid white;
+	outline-offset: 20px;
+
+}
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+input{
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid rgba(8, 252, 255, 1);
+  border-radius: 12px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+select {
+  appearance: none;
+  background-image:url("../images/Vector.png"); 
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .90em auto, 100%;
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+
+
+/*Newsletter section ends here*/
+
+section.Elements {
+	background: url("../images/Ellipse.png");
+	background-size: cover;	
+	background-repeat: no-repeat;
+}
+
+
+section.Elements div.ele_card{
+	background: white;
+	height: 300px;
+	text-align: center;
+	border: 10px solid #7D42FF , #08FCFF;
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-blue {
+  border-image-source: linear-gradient(to left, #7D42FF, #08FCFF);
+}
+
+/* Elements code ends here */
+
+
+.slate_blue{
+	background-color: rgba(36, 63, 96, 1);
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:  rgba(36, 63, 96, 1);
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/* Carousel code ends here */
+
+footer a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin: 5px;
+}
+
+footer a:hover{
+	color: gray;
+}
+
+
+footer div.listlinks{
+	margin-top:70px;
+	padding-top: 40px;
+}
+
+footer div.contacts{
+	margin-top: 70px;
+}
+
+/*footer ends here, below is  @media*/
+
+@media only screen and (max-width: 425px){
+	
+	div.white_bubbles img{
+		content: url("../images/Amblem.png");
+	}
+
+	div.white_bubbles,
+	div.blue_bubbles{
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 500px;
+	}
+
+	div.topcircle{
+		background-image: unset;
+		color: #0a0a0a;
+		margin-top: -580px;
+		margin-bottom: 0;
+	}
+
+	div.topcircle p.question {
+		padding: 0;
+		font-size: 24px;
+		font-weight: 800;
+	}
+
+	div.commcard{
+		display: none;
+	}
+	section.scholarships{
+		background-color: unset;
+	}
+	section.scholarships div.schcard img{
+		height: 500px;
+	
+	}
+
+	section.Newsletter{
+		background-image: unset;
+		background-color: rgba(36, 63, 96, 1);
+	}
+
+	section.Newsletter div.formcircle{
+		background-image: unset;
+		outline: unset;
+	}
+
+	
+		section.Elements{	
+
+
+		background-image: url("../images/Ellipse - rotated.png");
+		}
+}
